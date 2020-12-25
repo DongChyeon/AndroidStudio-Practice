@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "320967437705",
+    "firebase_url": "https://dongstagram-dd511.firebaseio.com",
+    "project_id": "dongstagram-dd511",
+    "storage_bucket": "dongstagram-dd511.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320967437705:android:52234297e7dd2b88614558",
+        "android_client_info": {
+          "package_name": "com.example.dongstagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320967437705-a2pf4urstjd5skrqjtc99cn3f9mlj0tk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dongstagram",
+            "certificate_hash": "ce4c9e31a3d74d8da83ad33aed51866c3420f704"
+          }
+        },
+        {
+          "client_id": "320967437705-h87m0due2jvantpoeki1lkcf08ber80d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNFoF4x0o9JFwV5ySrJdTSu_AdAxuzYD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320967437705-h87m0due2jvantpoeki1lkcf08ber80d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

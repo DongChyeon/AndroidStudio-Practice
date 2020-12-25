@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FirebaseStart</string>
+
+    <string name="facebook_application_id" translatable="false">2894292547360840</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">e93fca15a095545cc447572c663a79db</string>
+</resources>
