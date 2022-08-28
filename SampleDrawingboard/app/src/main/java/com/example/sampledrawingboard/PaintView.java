@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
@@ -13,6 +14,7 @@ public class PaintView extends View {
 
     private ArrayList<PathInfo> data = new ArrayList<PathInfo>();
     private PathInfo pathInfo;
+    private Paint paint;
 
     int color = Color.BLACK;
     int radius = 15;
@@ -26,7 +28,7 @@ public class PaintView extends View {
     }
 
     public void setPaintInfo() {
-        Paint paint = new Paint();
+        paint = new Paint();
         paint.setAntiAlias(true);
         paint.setColor(color);
 
@@ -49,6 +51,7 @@ public class PaintView extends View {
     protected void onDraw(Canvas canvas) {
         for (PathInfo p : data) {
             canvas.drawPath(p, p.getPaint());
+            Log.d("data", p.getPaint().toString());
         }
 
         super.onDraw(canvas);
@@ -67,9 +70,11 @@ public class PaintView extends View {
                 pathInfo.lineTo(x, y);  // View를 누르고 이동했을 때
                 break;
             case MotionEvent.ACTION_UP:
+                data.add(pathInfo);
+                pathInfo = new PathInfo();
+                pathInfo.setPaint(paint);
                 break;  // View에서 터치를 중단했을 때
         }
-        data.add(pathInfo);
 
         invalidate();
 
@@ -78,6 +83,7 @@ public class PaintView extends View {
 
     public void eraseAll() {
         data.clear();
+
         invalidate();
     }
 }
