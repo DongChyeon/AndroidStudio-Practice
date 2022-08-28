@@ -28,7 +28,14 @@
 
 <br>
 
-## 4. SampleDrawingBorad
+## 4. Retrofit_Practice1
+
+<img width="300" src="https://user-images.githubusercontent.com/64844115/103153365-5d110480-47d3-11eb-8a30-a5305508000f.png">
+
+#### 영화진흥위원회의 일별 박스오피스 API를 Retrofit 통신으로 받아와 리사이클러뷰에 출력하는 예제
+#### 사용 언어 : Java
+
+## 5. SampleDrawingBorad
 
 <img width="300" src="https://user-images.githubusercontent.com/64844115/92104302-14949c00-ee1c-11ea-9d66-321b197e6477.png">
 
@@ -37,7 +44,7 @@
 
 <br>
 
-## 5. SampleRecyclerview
+## 6. SampleRecyclerview
 
 <img width="300" src="https://user-images.githubusercontent.com/64844115/92613973-7d858380-f2f6-11ea-904b-e023c23aac0a.png">
 
@@ -46,7 +53,7 @@
 
 <br>
 
-## 6. SmartFoothold
+## 7. SmartFoothold
 
 <img width="300" src="https://user-images.githubusercontent.com/64844115/92104693-a00e2d00-ee1c-11ea-9f8d-aae132c3e72b.png">
 
